@@ -133,3 +133,5 @@ with open('dades/PreuLloguer20250117.csv', mode='r', encoding='utf-8') as file:
     
 
 
+import pandas as pd
+df_datos = pd.read_csv("dades/PreuLloguer20250117.csv")
